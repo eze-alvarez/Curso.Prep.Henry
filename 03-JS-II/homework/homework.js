@@ -216,14 +216,12 @@ function esPrimo(numero) {
   if(numero === 2) return true;
   for(var i = 2; i < numero; i++) 
   {
-    if(numero % i === 0) {
+    if(numero % i === 0) 
+    {
       return false;
     }
   }
-  else 
-  {
-    return true;
-  }
+   return true;
 }
 
 function esVerdadero(valor){
